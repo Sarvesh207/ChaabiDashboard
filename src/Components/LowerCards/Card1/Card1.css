@@ -1,0 +1,58 @@
+.card1{
+    background: white;
+    padding: 10px;
+    border: 1 px solid rgba(24, 120, 242, 0.25);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(24, 120, 242, 0.25);
+
+    
+
+}
+
+.card1_heading{
+    font-size: x-large;
+}
+
+.card1_heading2{
+    display: flex;
+    align-items: center;
+
+}
+.card1_heading2 p {
+    color: 
+    rgba(51, 51, 51, 0.5);
+    font-size: 1.2rem;
+}
+.icon-up{
+    font-size: xx-large;
+    color: rgba(1, 142, 66, 1);
+}
+
+.card1_list{
+    list-style: none;
+
+}
+.card1_list li {
+    font-size: small;
+   
+}
+
+.card1_list li p {
+    color: rgba(51, 51, 51, 0.5);
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.card1_list li div {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-block: 7px;
+}
+
+.icon_circle{
+    color: rgba(13, 98, 255, 1);
+    font-size: large;
+
+}

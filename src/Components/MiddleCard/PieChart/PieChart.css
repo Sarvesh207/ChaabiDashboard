@@ -1,0 +1,26 @@
+.donut-chart{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #B4CEFF;
+    border-radius: px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.Ratio{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Ratio div li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-block: 5px;
+
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Poppins:wght@300;400;700&display=swap');
+
+.topbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    background: rgba(12, 88, 230, 1);
+    color: white;
+
+    font-size: small;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+
+
+}

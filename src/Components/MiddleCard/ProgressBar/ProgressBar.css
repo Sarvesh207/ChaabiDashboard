@@ -1,0 +1,61 @@
+.ProgressBar{
+  background: white;
+}
+.ProgressBarHeading{
+  padding-inline: 12px;
+}
+
+.ProgressBarContainer{
+    
+    margin-inline: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll; /* Add horizontal scroll */
+    white-space: nowrap;
+    padding: 10px;
+}
+.progress-bar {
+    width: 15px; /* Adjust the width of the progress bar */
+    height: 200px; /* Adjust the height of the progress bar */
+    background: rgba(231, 239, 255, 1); /* Background color of the progress bar */
+    border: 1px solid #ccc; /* Border color of the progress bar */
+    position: relative;
+  /* Adjust the spacing between progress bars */
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .progress-bar-fill {
+    background:  rgba(13, 98, 255, 0.8);; /* Color of the progress bar fill */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgba(13, 98, 255, 0.8);
+    border-radius: 10px;
+    transition: height 0.3s ease-in-out; /* Add a smooth transition effect */
+   
+  }
+  .x-axix{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  }
+  .y-axix{
+    list-style: none;
+    display: flex;
+
+  }
+
+  .progressbar-list{
+    display: flex;
+    list-style: none;
+  }
+
+  .progressbar-list li {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10px;
+   align-items: center;
+  }

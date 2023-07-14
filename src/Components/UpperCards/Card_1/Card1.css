@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(24, 120, 242, 0.25);
+    background: white;
+
+}
+
+.innerCard {
+    display: flex;
+
+    align-items: end;
+    justify-content: space-between;
+}
+
+
+
+.numbersDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numbersDiv p {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+
+}
+
+
+.percentage {
+    background: rgba(1, 142, 66, 0.1);
+    border: 1ps solid rgba(1, 142, 66, 0.1);
+    border-radius: 5px;
+    color: rgba(1, 142, 66, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 5px;
+    padding:
+        5px, 12px, 5px, 12px;
+
+}
+
+.icon {
+    border: 1px solid rgba(1, 142, 66, 1);
+    border-radius: 3px;
+    padding: 1px;
+}
