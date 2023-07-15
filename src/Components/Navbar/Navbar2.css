@@ -1,6 +1,6 @@
 /* Navbar CSS */
 .navbar {
-    background-color: #ffffff;
+    background: rgba(231, 239, 255, 1);
     height: 80px;
     display: flex;
     justify-content: flex-start;
