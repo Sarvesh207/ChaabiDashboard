@@ -1,8 +1,22 @@
+@media (min-width: 425px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
 
-  
-  
-  
-  
-  
-  
-  
+
+    }
+
+    @media (min-width: 768px) {
+        .cards {
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            overflow: hidden;
+        }
+
+
+    }

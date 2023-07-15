@@ -52,3 +52,43 @@
     border-radius: 3px;
     padding: 1px;
 }
+
+/* For screens larger than 768px (tablet and above) */
+
+/* For screens larger than 1024px (tablet and above) */
+/* @media (min-width: 1024px) {
+    .card {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    
+} */
+
+/* For screens larger than 768px (tablet and above) */
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+       width: 40%;
+    }
+
+    .numbersDiv  {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        width: 30%;
+    
+    }
+
+    
+}
